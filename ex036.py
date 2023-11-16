@@ -1,6 +1,6 @@
 ve = float(input('Qual o valor do emprestimo: R$'))
 s = float(input('Qual o valor do seu salario mensal: R$'))
-t = int(input('Qual o tempo desejado para pagar o emprestimo: '))
+t = int(input('Qual o tempo desejado para pagar o emprestimo em anos: '))
 r = ve / (t * 12)
 vp = (r * 0.13) + r
 if r < (s / 100) * 30:
